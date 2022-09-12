@@ -1,3 +1,4 @@
+from random import randint
 
 
 def max2(a,b):
@@ -93,12 +94,12 @@ def nbjoursmois(a,m):
     
 #print(nbjoursmois(2004,4))
 
-def nbjours(jn, mn, an, j, m, a):
+'''def nbjours(jn, mn, an, j, m, a):
     jours = 0
-    jours += bjoursannee(a) * (a-an)
-    jours += (nbjoursmois(a,m)*(m-mn)) - (nbjoursmois(an,mn)*(mn-m)) 
-    jours += j-jn
-    return jours
+    jours += pass #for i in range(a-1)bjoursannee(a+1)
+    jours += pass
+    jours += pass
+    return jours'''
 #print(nbjours(17,9,2022,17,9,2022))
 
 def somme(t):
@@ -108,7 +109,7 @@ def somme(t):
     return s 
     
     
-print(somme([1,-2,4,89,100]))
+#print(somme([1,-2,4,89,100]))
 
 def somme_interv(t,a,b):
     s = 0
@@ -116,11 +117,156 @@ def somme_interv(t,a,b):
         s += t[i]
     return s 
 
-print(somme_interv([1,4,6,14,35],1,3))
+#print(somme_interv([1,4,6,14,35],1,3))
 
 def occurrences(v, t):
     s = 0
     for i in t :
         if i == v:
-            s += i 
+            s += 1
+    return s 
+#print(occurrences(3,[3,3,3,3]))
+
+
+def randint_tab():
+    t = []
+    for i in range(101):
+        t.append(randint(1,1000))
+    return t 
+
+def rand_tab9():
+    t = []
+    for i in range(1001):
+        t.append(randint(0,9))
+    return t 
+
+#print(rand_tab9())
+
+def stats_mille_lancers():
+    occurence = [0,]*10
+    t = rand_tab9()
+    for i in range(len(t)):
+        if t[i] == 0:
+          occurence[0] += 1
+        if t[i] == 1:
+              occurence[1] += 1
+        if t[i] == 2:
+              occurence[2] += 1
+        if t[i] == 3:
+              occurence[3] += 1
+        if t[i] == 4:
+              occurence[4] += 1
+        if t[i] == 5:
+              occurence[5] += 1
+        if t[i] == 6:
+              occurence[6] += 1
+        if t[i] == 7:
+              occurence[7] += 1
+        if t[i] == 8:
+              occurence[8] += 1
+        if t[i] == 9:
+              occurence[9] += 1
+    return occurence 
+     
+def stats_mille_lancers_bis():
+    tab = [randint(0,9) for i in range(1000)]
+    occurrences = []
+    for i in range(10):
+        occurrences.append(occurrences(i, tab))
+    return occurrences
+#print(stats_mille_lancers_bis() )  
+
+def stats_mille_lancers_opti():
+    occurrences = [0]*10
+    for i in range(1000):
+        x = randint(0,9) 
+        occurrences[x] += 1
+    return occurrences
+#print(stats_mille_lancers_opti())
+    
+    
+def fibonacci(n):
+    if n <= 0:
+        return [0]
+    fibo = [0, 1]
+    while len(fibo) < n:
+        suivant = fibo[len(fibo) - 1] + fibo[len(fibo) - 2]
+        fibo.append(suivant)
+    return fibo
+
+    
+print(fibonacci(30))
+
+
+def copie(t):
+    c = []
+    for i in t :
+        c.append(i)
+    return t,c
+#print(copie([1,2,3]))
+
+
+def ajout(v, t):
+    c = []
+    for i in t :
+        c.append(i)
+    c.append(v)
+    return t,c
+#print(ajout(3,[1,2,3]))
+
+def tableau_aleatoire(n, a, b):
+    #return [randint(1,1000) for i in range(n)]
+    t = []
+    for i in range(n):
+        t.append(randint(a,b))
+    return t
+#print(tableau_aleatoire(3,5,8))
+
+def tableau_croissant(n):
+    t = [1]
+    for i in range(n):
+        rand = randint(0,n)
+        t.append(rand+t[i])
+    return t
+    
+print(tableau_croissant(10))
+
+#print([0]*10**8)
+
+def somme(n):
+    if n == 0:
+        return 0
+    else:
+        return n + somme(n-1)
+
+#print(somme(10))
+
+def puissance(x,n):
+    if n == 0:
+        return 1
+    else:
+        return x * puissance(x,n-1)
+     
+#print(puissance(2.5,100))   
+
+def puissance_double(x,n):
+    if n == 0:
+        return 1
+    elif n % 2 == 0:
+        resultat = puissance_double(x,n//2)
+        return resultat * resultat
+    else:
+        resultat = puissance_double(x,(n-1)//2)
+        return x * resultat * resultat
+print(puissance_double(3,42))
+
+def echange(tab, i, j):
+    for k in range(len(tab)):
+        if k == i:
+            old = tab[i]
+            tab[i] = tab[j]
+            tab[j] = old
+    return tab
+print(echange([1,2,30,5,2,5,5,13],1,6))
+        
 
