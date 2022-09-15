@@ -1,3 +1,4 @@
+from math import factorial
 from random import randint
 
 
@@ -94,13 +95,20 @@ def nbjoursmois(a,m):
     
 #print(nbjoursmois(2004,4))
 
-'''def nbjours(jn, mn, an, j, m, a):
+def nbjours(jn, mn, an, j, m, a):
     jours = 0
-    jours += pass #for i in range(a-1)bjoursannee(a+1)
-    jours += pass
-    jours += pass
-    return jours'''
-#print(nbjours(17,9,2022,17,9,2022))
+    for i in range(an+1,a-1):
+        jours += bjoursannee(i)
+    if a > an:
+        for i in range(mn+1,13):
+            jours += nbjoursmois(an,i)
+    for i in range(1,m):
+            jours += nbjoursmois(a,i)  
+    jours += nbjoursmois(an,mn)-jn
+    jours += j 
+    return jours 
+        
+print(nbjours(17,9,2005,17,9,2022))
 
 def somme(t):
     s = 0
@@ -195,7 +203,7 @@ def fibonacci(n):
     return fibo
 
     
-print(fibonacci(30))
+#print(fibonacci(30))
 
 
 def copie(t):
@@ -229,7 +237,7 @@ def tableau_croissant(n):
         t.append(rand+t[i])
     return t
     
-print(tableau_croissant(10))
+#print(tableau_croissant(10))
 
 #print([0]*10**8)
 
@@ -258,7 +266,7 @@ def puissance_double(x,n):
     else:
         resultat = puissance_double(x,(n-1)//2)
         return x * resultat * resultat
-print(puissance_double(3,42))
+#print(puissance_double(3,42))
 
 def echange(tab, i, j):
     for k in range(len(tab)):
@@ -267,6 +275,27 @@ def echange(tab, i, j):
             tab[i] = tab[j]
             tab[j] = old
     return tab
-print(echange([1,2,30,5,2,5,5,13],1,6))
+#print(echange([1,2,30,5,2,5,5,13],1,6))
         
 
+def fiboRec(n):
+    if n < 2:
+        return n
+    else :
+     return fiboRec (n -1)+ fiboRec (n -2)
+ 
+ 
+#print(fiboRec(50))
+
+def factoriel(n):
+    if n == 0:
+        return 1
+    if n == 1:
+        return 1
+    else:
+        return n * factoriel(n - 1)
+    
+print(factoriel(4))
+
+
+     
