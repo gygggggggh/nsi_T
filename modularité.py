@@ -72,7 +72,7 @@ def inverse_f(f):
 
 ################################################################################
 
-class Vecteur():
+class vecteur():
     def __init__(self,x,y):
         self.x = x
         self.y = y
@@ -84,16 +84,15 @@ class Vecteur():
         return self.x == v.x and self.y == v.y
     
     def somme(self,v):
-        return Vecteur(self.x + v.x,self.y + v.y)
+        return vecteur(self.x + v.x,self.y + v.y)
     
     def diff(self,v):
-        return Vecteur(self.x - v.x,self.y - v.y)
+        return vecteur(self.x - v.x,self.y - v.y)
     
     def k(self,k):
-        return Vecteur(self.x * k,self.y * k)
+        return vecteur(self.x * k,self.y * k)
     
-    def est_collinaire(self,v):
-        return self.x * v.y == self.y * v.x
+    
     
 class fraction():
     def __init__(self,n,d):
