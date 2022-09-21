@@ -7,7 +7,8 @@ def cree_vect(x,y):
     return v
 
 def afficher_vect(u):
-    print(f'({u[0]};{u[1]})')
+    return f'({u[0]};{u[1]})'
+
 
 def x_vect(u):
     return u[0]
@@ -24,7 +25,7 @@ def somme_vect(u,v):
 
 def diff_vect(u,v):
     d = (u[0] - v[0]),(u[1] - v[1])
-    return s
+    return d
 
 def k_vect(u,k):
     m = u[0] * k , u[1] * k
@@ -39,7 +40,7 @@ def cree_fract(n,d):
     return [n,d]
 
 def afficher_fract(f):
-    print(f'{f[0]}/{f[1]}')
+    return f'{f[0]}/{f[1]}'
     
 def n_f(f):
     return f[0]
@@ -78,7 +79,7 @@ class vecteur():
         self.y = y
         
     def afficher(self):
-        print(f'({self.x};{self.y})')
+        return f'({self.x};{self.y})'
         
     def est_egal(self,v):
         return self.x == v.x and self.y == v.y
@@ -100,7 +101,8 @@ class fraction():
         self.d = d
         
     def afficher(self):
-        print(f'{self.n}/{self.d}')
+        return f'{self.n}/{self.d}'
+        
         
     def est_egal(self,f):
         return self.n == f.n and self.d == f.d
@@ -121,5 +123,4 @@ class fraction():
         return fraction(self.d,self.n)
 
 
-    
-    
+print(fraction(2,4).afficher())
