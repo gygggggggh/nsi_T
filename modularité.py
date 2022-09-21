@@ -97,6 +97,8 @@ class vecteur():
     
 class fraction():
     def __init__(self,n,d):
+        if d == 0:
+            raise ZeroDivisionError
         self.n = n
         self.d = d
         
@@ -123,4 +125,8 @@ class fraction():
         return fraction(self.d,self.n)
 
 
-print(fraction(2,4).afficher())
+print(fraction(2,0).k(2).afficher())
+
+
+    
+    
