@@ -1,5 +1,5 @@
-from math import factorial
 from random import randint
+import turtle
 
 
 def max2(a,b):
@@ -108,7 +108,7 @@ def nbjours(jn, mn, an, j, m, a):
     jours += j 
     return jours 
         
-print(nbjours(17,9,2005,17,9,2022))
+#print(nbjours(17,9,2005,17,9,2022))
 
 def somme(t):
     s = 0
@@ -269,7 +269,7 @@ def puissance_double(x,n):
 #print(puissance_double(3,42))
 
 def echange(tab, i, j):
-    for k in range(len(tab)):
+    for k in range(len(tab)): 
         if k == i:
             old = tab[i]
             tab[i] = tab[j]
@@ -295,7 +295,86 @@ def factoriel(n):
     else:
         return n * factoriel(n - 1)
     
-print(factoriel(4))
+#print(factoriel(4))
+
+def sycrse(n):
+    print(int(n))
+    if n <= 1 :
+        return ("finit")
+    
+    if n % 2 ==0:
+        n = n/2
+        return sycrse(n)
+    else:
+        n = n*3+1
+        return sycrse(n)
+        
+
+#print(sycrse(7))
 
 
-     
+def avancer(d,niv):
+    if niv == 0:
+        turtle.forward(d)
+    else:
+        avancer(d//3,niv-1)
+        turtle.left(60)
+        avancer(d//3,niv-1)
+        turtle.right(120)
+        avancer(d//3,niv-1)
+        turtle.left(60)
+        avancer(d//3,niv-1)
+        
+        
+    
+
+#avancer(400,3)
+
+def koch(d,niv):
+    turtle.goto(-100,0)
+    for i in range(3):
+        avancer(d,niv)
+        turtle.right(120)
+        turtle.speed(1)
+#koch(300,4)
+#turtle.mainloop()
+
+
+def nbChiffres(n):
+    if n < 10:
+       return 1
+    else:
+        return nbChiffres(n//10)+1
+
+#print(nbChiffres(factoriel(50)))
+
+def nb_bits(n):
+    if n <= 1:
+       return n
+    else:
+        return 
+'''Exercice 4
+
+revoir le nombre de bits valant 1 dans l'ecriture binaire de n
+
+​'''
+   
+def max_tab(tab):
+    max = 0
+    for i in tab:
+        if i > max:
+           max = i
+    return max 
+   
+print(max_tab([1,8,10,45,2]))
+   
+def min_tab(tab):
+    min = 0
+    for i in tab:
+        if i < min:
+           min = i
+    return min
+
+    
+   
+   
