@@ -1,6 +1,3 @@
-from ast import If
-from re import I
-
 
 def cree_vect(x,y):
     v = x,y
@@ -94,16 +91,22 @@ class vecteur():
         return vecteur(self.x * k,self.y * k)
     
     
-    
+#####################################################  
 class fraction():
     def __init__(self,n,d):
-        if d == 0:
-            raise ZeroDivisionError
         self.n = n
         self.d = d
         
     def afficher(self):
-        return f'{self.n}/{self.d}'
+        if self.d == 1:
+            return f'{self.n}'
+        elif self.n == 0:
+            return f'{self.n}'
+        elif self.d < 0:
+            self.d = self.d * -1
+            return f'{self.n*-1}/{self.d}'
+        else:
+            return f'{self.n}/{self.d}'
         
         
     def est_egal(self,f):
@@ -115,17 +118,53 @@ class fraction():
     def diff(self,f):
         return fraction(self.n - f.n,self.d - f.d)
     
-    def k(self,k):
+    def k_produit(self,k):
         return fraction(self.n * k,self.d * k)
+    def k_div(self,k):
+        return fraction(self.n / k,self.d / k)
     
     def div(self,f):
         return fraction(self.n / f.n,self.d / f.d)
     
+    def puissance(self,k):
+        return fraction(self.n ** k,self.d ** k)
+    
     def inverse(self):
         return fraction(self.d,self.n)
+    
+    def reduction(self):
+        return fraction(self.n // self.pgcd_itera(),self.d // self.pgcd_itera())
+    
+    def pgcd_rec(self):
+        a = self.n
+        b = self.d
+        if b == 0:
+            return a
+        else:
+            return fraction(b,a % b).pgcd_rec()
+
+    def pgcd_itera(self):
+        a = self.n
+        b = self.d
+        while b != 0:
+            t = b
+            b = a % b
+            a = t
+        return a  
+    
+    def pgcm(self):
+        a = self.n
+        b = self.d
+        return abs(a*b)//fraction.pgcd_rec((a,b))
+    def fract2float(self):
+        return round(self.n / self.d,self.n)
+
+    
+print(fraction(21,15).pgcm())
 
 
-print(fraction(2,0).k(2).afficher())
+
+
 
 
     
