@@ -155,14 +155,21 @@ class fraction():
     def pgcm(self):
         a = self.n
         b = self.d
-        return abs(a*b)//fraction.pgcd_rec((a,b))
+        #return abs(a*b)//fraction.pgcd_rec((a,b))
     def fract2float(self):
         return round(self.n / self.d,self.n)
 
     
-print(fraction(21,15).pgcm())
 
 
+
+import time
+
+debut = time.perf_counter()
+for i in range(0,100_000_000_00):
+    pass
+fin = time.perf_counter()
+print(f'le temps d execution est de {fin - debut} secondes')
 
 
 
