@@ -61,11 +61,13 @@ def NPI(chaine):
             pass
         else:
             pile.empiler(int(c))
+    if pile.est_vide():
+        raise MemoryError("expression incorrect")
     return pile.depiler()
 
 
 if "__main__" == __name__:
-    print(NPI("2 2 + 2 ^"))
+    print(NPI("52*52*-"))
     PAREN = bonne_parenthese("()(())()")
     print(PAREN)
 
