@@ -67,7 +67,7 @@ def NPI(chaine):
 
 
 if "__main__" == __name__:
-    print(NPI("52*52*-"))
+    print(NPI(("83+")))
     PAREN = bonne_parenthese("()(())()")
     print(PAREN)
 
