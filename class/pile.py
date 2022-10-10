@@ -67,10 +67,10 @@ def NPI(chaine):
 
 
 if "__main__" == __name__:
-    print(NPI(("83+")))
+    print(NPI(("82+9*")))
     PAREN = bonne_parenthese("()(())()")
     print(PAREN)
 
     bon = Pile(1, 2, 3, 4, 5).est_vide()
 
-    print(bon.__str__())
+    print(bon)

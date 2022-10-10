@@ -1,4 +1,4 @@
-from pile import Pile
+from class.pile import Pile
 
 def reverse_pile(*pile):
     pile = Pile(*pile)
@@ -6,8 +6,9 @@ def reverse_pile(*pile):
     for i in range(len(pile)):
         pile_inverse.empiler(pile.depiler())
     return pile_inverse
-print(reverse_pile(1,2,3,4,5,6,7,8,9,10))
+#print(reverse_pile(1,2,3,4,5,6,7,8,9,10))
 
 def intervert(*pile):
     pass
-print(intervert(1,2,3,4,5,6,7,8,9,10))
+#print(intervert(1,2,3,4,5,6,7,8,9,10))
+
