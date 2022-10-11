@@ -12,4 +12,3 @@
 - les gens repondront a vos questions en disabt la verité
 - vous aurez un score par bon choix
 - le tout sera fait en POO
-

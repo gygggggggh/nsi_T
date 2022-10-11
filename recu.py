@@ -5,4 +5,3 @@ def apartient(v,tab,i):
         return v == tab[i]
     return v == tab[i] or apartient(v,tab,i+1)
         
-    

@@ -15,9 +15,7 @@ class Pile:
         if self.est_vide():
             raise MemoryError("Pile vide")
         return self.pile.pop()
-    
-    def __len__(self):
-        return len(self.pile)
+
     
 
 def bonne_parenthese(chaine):
