@@ -6,7 +6,7 @@ class Pile:
         return str(self.pile)
 
     def est_vide(self):
-        return len(self.pile) == 0
+        return self.pile == []
     
     def empiler(self, x):
         self.pile.append(x)
@@ -16,6 +16,8 @@ class Pile:
             raise MemoryError("Pile vide")
         return self.pile.pop()
 
+    def __len__(self):
+        return len(self.pile)
     
 
 def bonne_parenthese(chaine):

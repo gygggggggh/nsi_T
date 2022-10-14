@@ -1,6 +1,4 @@
-from pprint import pp
-import re
-from tkinter import W
+from random import randint
 from pile import Pile
 
 '''def reverse_pile(*pile):
@@ -47,13 +45,58 @@ Quelle est sa complexité en temps et en espace ?'''
     return p0
         
         
- def rotation_pile_k(pile, k):
+def rotation_pile_k(pile, k):
     p0 = Pile()
-    p_list = []
+    p2 = Pile()
     for i in range(k):
-        som = pile.depiler()
-        p_list.append(som)
+        rot =pile.depiler()
+        p2.empiler(rot)
     while not pile.est_vide():
-        i = pile.depiler()
-        p0 = p0.empiler(i)
-        
+         i = pile.depiler()
+         p0.empiler(i)  
+    while not p2.est_vide():
+        i = p2.depiler()
+        pile.empiler(i)
+    while not p0.est_vide():
+        i = p0.depiler()
+        pile.empiler(i)
+    return pile
+             
+
+#print(rotation_pile_k(Pile(1,2,3,4,5,6,7,8,9,10),4))
+
+def couper(pile):
+    p1 = Pile()
+    som = randint(1,len(pile))
+    for i in range(som):
+        new = pile.depiler()
+        p1.empiler(new)
+    return p1
+
+#abc = Pile("a",2,3,4,5,"b",7,8,9,10)
+#print(couper(abc))
+#print(abc)
+
+def melange(p1,p2):
+    p3 = Pile()
+    print(p1,p2)
+    while (not p1.est_vide()) and (not p2.est_vide()):
+        rnd = randint(1,2)
+        if rnd == 1:
+              v = p1.depiler()
+              p3.empiler(v)
+        else:
+            v = p2.depiler()
+            p3.empiler(v)
+    while not p1.est_vide():
+        v = p1.depiler()
+        p3.empiler(v)
+    while not p2.est_vide():
+        v = p2.depiler()
+        p3.empiler(v)
+
+    return p3
+         
+
+print(melange(Pile(1,2,3,4,5),Pile(6,7,8,9,10)))
+    
