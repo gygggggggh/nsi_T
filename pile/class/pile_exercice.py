@@ -78,16 +78,26 @@ def couper(pile):
 #print(abc)
 
 def melange(p1,p2):
+    """_summary_
+        on depile au hasard un ele
+        ment de p1 ou p2 jusqua ce que une des deux pile soit vide
+    
+
+    Args:
+        p1 (pile): une pile
+        p2 (pile ): une pile
+
+    Returns:
+        _type_: pile
+    """
     p3 = Pile()
-    print(p1,p2)
     while (not p1.est_vide()) and (not p2.est_vide()):
         rnd = randint(1,2)
         if rnd == 1:
               v = p1.depiler()
-              p3.empiler(v)
         else:
             v = p2.depiler()
-            p3.empiler(v)
+        p3.empiler(v)
     while not p1.est_vide():
         v = p1.depiler()
         p3.empiler(v)
@@ -97,6 +107,5 @@ def melange(p1,p2):
 
     return p3
          
-
 print(melange(Pile(1,2,3,4,5),Pile(6,7,8,9,10)))
-    
+
