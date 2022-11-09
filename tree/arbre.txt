@@ -1,0 +1,33 @@
+"""
+
+1 : la racine est A et il y a 15 noeds 
+
+2 : N O J K L M , il y'en a 6 feuille 
+
+3: ABDHN , ABEIO , ABEJ , ACFK , ACGL ,ACGM , il y'en a 6
+
+4 : la taille est de 15
+
+5 : N O ont une hauteur de 4 , H I J  K L M ont une hauteur de 3 , D E F G ont une hauteur de 2
+    , B C ont une hauteur de 1
+
+6 : la hauteur est 4
+
+7 : la longeur de cheminement est de 36
+
+8 : interne = 16 externe = 20
+
+9 : 36/15 2,4
+
+10 : 20/6 = 3,33 ET 16/9 = 1,77
+    
+
+
+
+
+
+
+
+
+
+    """
