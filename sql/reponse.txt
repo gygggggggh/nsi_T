@@ -1,0 +1,26 @@
+Partie A : Exploration du fichier de donnée
+
+
+Question 1 : Ouvrir le fichier « titanic.csv » à l’aide Notepad++. Ce fichier contient de nombreuses
+données sur certains passagers du Titanic (les membres d’équipage n’y figurent pas).
+Le séparateur utilisé dans le fichier est le symbole ; et il sert à separer
+
+
+Question 2 : On retrouve les descripteurs du fichier dans la première ligne du fichier obtenu. Quels
+sont-ils ? Que permettent-ils ?
+
+classe;survie;nom;sexe;age;tarif  il sert a definit les données
+
+
+Question 3 : À part la première ligne, chaque autre ligne du fichier correspond à un objet. Pour
+chaque objet, on a donc les valeurs pour chaque descripteur.
+• Pour le descripteur « sexe », à quoi correspond la valeur « 1 » ?
+ homme
+• Pour le descripteur « tarif », à quoi correspond la valeur indiquée pour chaque objet ?
+le prix du billet du titanic en livre 
+• Pour le descripteur « survie », à quoi correspondent la valeur « 0 » et la valeur « 1 » ?
+0 mort 1 vivant 
+
+Choisir un objet du fichier et rédiger un texte faisant référence aux descripteurs qui montre votre
+compréhension de l’organisation du fichier de données structurées.
+

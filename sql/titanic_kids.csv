@@ -1,0 +1,324 @@
+classe;survie;nom;sexe;age;tarif
+1;1;Allen, Miss. Elisabeth Walton;2;29;211
+1;1;Allison, Master. Hudson Trevor;1;1;152
+1;0;Allison, Miss. Helen Loraine;2;2;152
+1;0;Allison, Mr. Hudson Joshua Creighton;1;30;152
+1;0;Allison, Mrs. Hudson Bessie Waldo Daniels;2;25;152
+1;1;Anderson, Mr. Harry;1;48;27
+1;1;Andrews, Miss. Kornelia Theodosia;2;63;78
+1;0;Andrews, Mr. Thomas Jr;1;39;0
+1;1;Appleton, Mrs. Edward Dale (Charlotte Lamson);2;53;51
+1;0;Artagaveytia, Mr. Ramon;1;71;50
+1;0;Astor, Col. John Jacob;1;47;228
+1;1;Astor, Mrs. John Jacob (Madeleine Talmadge Force);2;18;228
+1;1;Aubart, Mme. Leontine Pauline;2;24;69
+1;1;"Barber, Miss. Ellen ""Nellie""";2;26;79
+1;1;Barkworth, Mr. Algernon Henry Wilson;1;80;30
+1;0;Baumann, Mr. John D;1;;26
+1;0;Baxter, Mr. Quigg Edmond;1;24;248
+1;1;Baxter, Mrs. James (Helene DeLaudeniere Chaput);2;50;248
+1;1;Bazzani, Miss. Albina;2;32;76
+1;0;Beattie, Mr. Thomson;1;36;75
+1;1;Beckwith, Mr. Richard Leonard;1;37;53
+1;1;Beckwith, Mrs. Richard Leonard (Sallie Monypeny);2;47;53
+1;1;Behr, Mr. Karl Howell;1;26;30
+1;1;Bidois, Miss. Rosalie;2;42;228
+1;1;Bird, Miss. Ellen;2;29;222
+1;0;Birnbaum, Mr. Jakob;1;25;26
+1;1;Bishop, Mr. Dickinson H;1;25;91
+1;1;Bishop, Mrs. Dickinson Helen Walton;2;19;91
+1;1;Bissette, Miss. Amelia;2;35;136
+1;1;Bjornstrom-Steffansson, Mr. Mauritz Hakan;1;28;27
+1;0;Blackwell, Mr. Stephen Weart;1;45;36
+1;1;Blank, Mr. Henry;1;40;31
+1;1;Bonnell, Miss. Caroline;2;30;165
+1;1;Bonnell, Miss. Elizabeth;2;58;27
+1;0;Borebank, Mr. John James;1;42;27
+1;1;Bowen, Miss. Grace Scott;2;45;262
+1;1;Bowerman, Miss. Elsie Edith;2;22;55
+1;1;"Bradley, Mr. George (""George Arthur Brayton"")";1;;27
+1;0;Brady, Mr. John Bertram;1;41;31
+1;0;Brandeis, Mr. Emil;1;48;50
+1;0;Brewe, Dr. Arthur Jackson;1;;40
+1;1;Brown, Mrs. James Joseph (Margaret Tobin);2;44;28
+1;1;Brown, Mrs. John Murray (Caroline Lane Lamson);2;59;51
+1;1;Bucknell, Mrs. William Robert (Emma Eliza Ward);2;60;76
+1;1;Burns, Miss. Elizabeth Margaret;2;41;135
+1;0;Butt, Major. Archibald Willingham;1;45;27
+1;0;Cairns, Mr. Alexander;1;;31
+1;1;Calderhead, Mr. Edward Pennington;1;42;26
+1;1;Candee, Mrs. Edward (Helen Churchill Hungerford);2;53;27
+1;1;Cardeza, Mr. Thomas Drake Martinez;1;36;512
+1;1;Cardeza, Mrs. James Warburton Martinez (Charlotte Wardle Drake);2;58;512
+1;0;Carlsson, Mr. Frans Olof;1;33;5
+1;0;Carrau, Mr. Francisco M;1;28;47
+1;0;Carrau, Mr. Jose Pedro;1;17;47
+1;1;Carter, Master. William Thornton II;1;11;120
+1;1;Carter, Miss. Lucile Polk;2;14;120
+1;1;Carter, Mr. William Ernest;1;36;120
+1;1;Carter, Mrs. William Ernest (Lucile Polk);2;36;120
+1;0;Case, Mr. Howard Brown;1;49;26
+1;1;Cassebeer, Mrs. Henry Arthur Jr (Eleanor Genevieve Fosdick);2;;28
+1;0;Cavendish, Mr. Tyrell William;1;36;79
+1;1;Cavendish, Mrs. Tyrell William (Julia Florence Siegel);2;76;79
+1;0;Chaffee, Mr. Herbert Fuller;1;46;61
+1;1;Chaffee, Mrs. Herbert Fuller (Carrie Constance Toogood);2;47;61
+1;1;Chambers, Mr. Norman Campbell;1;27;53
+1;1;Chambers, Mrs. Norman Campbell (Bertha Griggs);2;33;53
+1;1;Chaudanson, Miss. Victorine;2;36;262
+1;1;Cherry, Miss. Gladys;2;30;87
+1;1;Chevre, Mr. Paul Romaine;1;45;30
+1;1;Chibnall, Mrs. (Edith Martha Bowerman);2;;55
+1;0;Chisholm, Mr. Roderick Robert Crispin;1;;0
+1;0;Clark, Mr. Walter Miller;1;27;137
+1;1;Clark, Mrs. Walter Miller (Virginia McDowell);2;26;137
+1;1;Cleaver, Miss. Alice;2;22;152
+1;0;Clifford, Mr. George Quincy;1;;52
+1;0;Colley, Mr. Edward Pomeroy;1;47;26
+1;1;Compton, Miss. Sara Rebecca;2;39;83
+1;0;Compton, Mr. Alexander Taylor Jr;1;37;83
+1;1;Compton, Mrs. Alexander Taylor (Mary Eliza Ingersoll);2;64;83
+1;1;Cornell, Mrs. Robert Clifford (Malvina Helen Lamson);2;55;26
+1;0;Crafton, Mr. John Bertram;1;;27
+1;0;Crosby, Capt. Edward Gifford;1;70;71
+1;1;Crosby, Miss. Harriet R;2;36;71
+1;1;Crosby, Mrs. Edward Gifford (Catherine Elizabeth Halstead);2;64;27
+1;0;Cumings, Mr. John Bradley;1;39;71
+1;1;Cumings, Mrs. John Bradley (Florence Briggs Thayer);2;38;71
+1;1;Daly, Mr. Peter Denis ;1;51;27
+1;1;Daniel, Mr. Robert Williams;1;27;31
+1;1;Daniels, Miss. Sarah;2;33;152
+1;0;Davidson, Mr. Thornton;1;31;52
+1;1;Davidson, Mrs. Thornton (Orian Hays);2;27;52
+1;1;Dick, Mr. Albert Adrian;1;31;57
+1;1;Dick, Mrs. Albert Adrian (Vera Gillespie);2;17;57
+1;1;Dodge, Dr. Washington;1;53;82
+1;1;Dodge, Master. Washington;1;4;82
+1;1;Dodge, Mrs. Washington (Ruth Vidaver);2;54;82
+1;0;Douglas, Mr. Walter Donald;1;50;106
+1;1;Douglas, Mrs. Frederick Charles (Mary Helene Baxter);2;27;248
+1;1;Douglas, Mrs. Walter Donald (Mahala Dutton);2;48;106
+1;1;"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")";2;48;40
+1;1;"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")";1;49;57
+1;0;Dulles, Mr. William Crothers;1;39;30
+1;1;Earnshaw, Mrs. Boulton (Olive Potter);2;23;83
+1;1;Endres, Miss. Caroline Louise;2;38;228
+1;1;Eustis, Miss. Elizabeth Mussey;2;54;78
+1;0;Evans, Miss. Edith Corse;2;36;32
+1;0;Farthing, Mr. John;1;;222
+1;1;Flegenheim, Mrs. Alfred (Antoinette);2;;32
+1;1;Fleming, Miss. Margaret;2;;111
+1;1;"Flynn, Mr. John Irwin (""Irving"")";1;36;26
+1;0;Foreman, Mr. Benjamin Laventall;1;30;28
+1;1;Fortune, Miss. Alice Elizabeth;2;24;263
+1;1;Fortune, Miss. Ethel Flora;2;28;263
+1;1;Fortune, Miss. Mabel Helen;2;23;263
+1;0;Fortune, Mr. Charles Alexander;1;19;263
+1;0;Fortune, Mr. Mark;1;64;263
+1;1;Fortune, Mrs. Mark (Mary McDougald);2;60;263
+1;1;Francatelli, Miss. Laura Mabel;2;30;57
+1;0;Franklin, Mr. Thomas Parham;1;;27
+1;1;Frauenthal, Dr. Henry William;1;50;134
+1;1;Frauenthal, Mr. Isaac Gerald;1;43;28
+1;1;Frauenthal, Mrs. Henry William (Clara Heinsheimer);2;;134
+1;1;Frolicher, Miss. Hedwig Margaritha;2;22;50
+1;1;Frolicher-Stehli, Mr. Maxmillian;1;60;79
+1;1;Frolicher-Stehli, Mrs. Maxmillian (Margaretha Emerentia Stehli);2;48;79
+1;0;Fry, Mr. Richard;1;;0
+1;0;Futrelle, Mr. Jacques Heath;1;37;53
+1;1;Futrelle, Mrs. Jacques Heath (Lily May Peel);2;35;53
+1;0;Gee, Mr. Arthur H;1;47;39
+1;1;Geiger, Miss. Amalie;2;35;212
+1;1;Gibson, Miss. Dorothy Winifred;2;22;59
+1;1;Gibson, Mrs. Leonard (Pauline C Boeson);2;45;59
+1;0;Giglio, Mr. Victor;1;24;79
+1;1;Goldenberg, Mr. Samuel L;1;49;89
+1;1;Goldenberg, Mrs. Samuel L (Edwiga Grabowska);2;;89
+1;0;Goldschmidt, Mr. George B;1;71;35
+1;1;Gracie, Col. Archibald IV;1;53;29
+1;1;Graham, Miss. Margaret Edith;2;19;30
+1;0;Graham, Mr. George Edward;1;38;153
+1;1;Graham, Mrs. William Thompson (Edith Junkins);2;58;153
+1;1;Greenfield, Mr. William Bertram;1;23;63
+1;1;Greenfield, Mrs. Leo David (Blanche Strouse);2;45;63
+1;0;Guggenheim, Mr. Benjamin;1;46;79
+1;1;Harder, Mr. George Achilles;1;25;55
+1;1;Harder, Mrs. George Achilles (Dorothy Annan);2;25;55
+1;1;Harper, Mr. Henry Sleeper;1;48;77
+1;1;Harper, Mrs. Henry Sleeper (Myna Haxtun);2;49;77
+1;0;Harrington, Mr. Charles H;1;;42
+1;0;Harris, Mr. Henry Birkhardt;1;45;83
+1;1;Harris, Mrs. Henry Birkhardt (Irene Wallach);2;35;83
+1;0;Harrison, Mr. William;1;40;0
+1;1;Hassab, Mr. Hammad;1;27;77
+1;1;Hawksford, Mr. Walter James;1;;30
+1;1;Hays, Miss. Margaret Bechstein;2;24;83
+1;0;Hays, Mr. Charles Melville;1;55;94
+1;1;Hays, Mrs. Charles Melville (Clara Jennings Gregg);2;52;94
+1;0;Head, Mr. Christopher;1;42;43
+1;0;Hilliard, Mr. Herbert Henry;1;;52
+1;0;Hipkins, Mr. William Edward;1;55;50
+1;1;Hippach, Miss. Jean Gertrude;2;16;58
+1;1;Hippach, Mrs. Louis Albert (Ida Sophia Fischer);2;44;58
+1;1;Hogeboom, Mrs. John C (Anna Andrews);2;51;78
+1;0;Holverson, Mr. Alexander Oskar;1;42;52
+1;1;Holverson, Mrs. Alexander Oskar (Mary Aline Towner);2;35;52
+1;1;"Homer, Mr. Harry (""Mr E Haven"")";1;35;27
+1;1;Hoyt, Mr. Frederick Maxfield;1;38;90
+1;0;Hoyt, Mr. William Fisher;1;;31
+1;1;Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby);2;35;90
+1;1;Icard, Miss. Amelie;2;38;80
+1;0;Isham, Miss. Ann Elizabeth;2;50;29
+1;1;Ismay, Mr. Joseph Bruce;1;49;0
+1;0;Jones, Mr. Charles Cresson;1;46;26
+1;0;Julian, Mr. Henry Forbes;1;50;26
+1;0;Keeping, Mr. Edwin;1;33;212
+1;0;Kent, Mr. Edward Austin;1;58;30
+1;0;Kenyon, Mr. Frederick R;1;41;52
+1;1;Kenyon, Mrs. Frederick R (Marion);2;;52
+1;1;Kimball, Mr. Edwin Nelson Jr;1;42;53
+1;1;Kimball, Mrs. Edwin Nelson Jr (Gertrude Parsons);2;45;53
+1;0;Klaber, Mr. Herman;1;;27
+1;1;Kreuchen, Miss. Emilie;2;39;211
+1;1;Leader, Dr. Alice (Farnham);2;49;26
+1;1;LeRoy, Miss. Bertha;2;30;106
+1;1;Lesurer, Mr. Gustave J;1;35;512
+1;0;Lewy, Mr. Ervin G;1;;28
+1;0;"Lindeberg-Lind, Mr. Erik Gustaf (""Mr Edward Lingrey"")";1;42;27
+1;1;Lindstrom, Mrs. Carl Johan (Sigrid Posse);2;55;28
+1;1;Lines, Miss. Mary Conover;2;16;39
+1;1;Lines, Mrs. Ernest H (Elizabeth Lindsey James);2;51;39
+1;0;Long, Mr. Milton Clyde;1;29;30
+1;1;Longley, Miss. Gretchen Fiske;2;21;78
+1;0;Loring, Mr. Joseph Holland;1;30;46
+1;1;Lurette, Miss. Elise;2;58;147
+1;1;Madill, Miss. Georgette Alexandra;2;15;211
+1;0;Maguire, Mr. John Edward;1;30;26
+1;1;Maioni, Miss. Roberta;2;16;87
+1;1;Marechal, Mr. Pierre;1;;30
+1;0;Marvin, Mr. Daniel Warner;1;19;53
+1;1;Marvin, Mrs. Daniel Warner (Mary Graham Carmichael Farquarson);2;18;53
+1;1;"Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")";2;24;50
+1;0;McCaffry, Mr. Thomas Francis;1;46;75
+1;0;McCarthy, Mr. Timothy J;1;54;52
+1;1;McGough, Mr. James Robert;1;36;26
+1;0;Meyer, Mr. Edgar Joseph;1;28;82
+1;1;Meyer, Mrs. Edgar Joseph (Leila Saks);2;;82
+1;0;Millet, Mr. Francis Davis;1;65;27
+1;0;Minahan, Dr. William Edward;1;44;90
+1;1;Minahan, Miss. Daisy E;2;33;90
+1;1;Minahan, Mrs. William Edward (Lillian E Thorpe);2;37;90
+1;1;Mock, Mr. Philipp Edmund;1;30;58
+1;0;Molson, Mr. Harry Markland;1;55;31
+1;0;Moore, Mr. Clarence Bloomfield;1;47;42
+1;0;Natsch, Mr. Charles H;1;37;30
+1;1;Newell, Miss. Madeleine;2;31;113
+1;1;Newell, Miss. Marjorie;2;23;113
+1;0;Newell, Mr. Arthur Webster;1;58;113
+1;1;Newsom, Miss. Helen Monypeny;2;19;26
+1;0;Nicholson, Mr. Arthur Ernest;1;64;26
+1;1;Oliva y Ocana, Dona. Fermina;2;39;109
+1;1;Omont, Mr. Alfred Fernand;1;;26
+1;1;Ostby, Miss. Helene Ragnhild;2;22;62
+1;0;Ostby, Mr. Engelhart Cornelius;1;65;62
+1;0;Ovies y Rodriguez, Mr. Servando;1;29;28
+1;0;Parr, Mr. William Henry Marsh;1;;0
+1;0;Partner, Mr. Austen;1;46;29
+1;0;Payne, Mr. Vivian Ponsonby;1;23;94
+1;0;Pears, Mr. Thomas Clinton;1;29;67
+1;1;Pears, Mrs. Thomas (Edith Wearne);2;22;67
+1;0;Penasco y Castellana, Mr. Victor de Satode;1;18;109
+1;1;Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo);2;17;109
+1;1;Perreault, Miss. Anne;2;30;94
+1;1;Peuchen, Major. Arthur Godfrey;1;52;31
+1;0;Porter, Mr. Walter Chamberlain;1;47;52
+1;1;Potter, Mrs. Thomas Jr (Lily Alexenia Wilson);2;56;83
+1;0;Reuchlin, Jonkheer. John George;1;38;0
+1;1;Rheims, Mr. George Alexander Lucien;1;;40
+1;0;Ringhini, Mr. Sante;1;22;136
+1;0;Robbins, Mr. Victor;1;;228
+1;1;Robert, Mrs. Edward Scott (Elisabeth Walton McMillan);2;43;211
+1;0;Roebling, Mr. Washington Augustus II;1;31;50
+1;1;"Romaine, Mr. Charles Hallace (""Mr C Rolmane"")";1;45;27
+1;0;Rood, Mr. Hugh Roscoe;1;;50
+1;1;Rosenbaum, Miss. Edith Louise;2;33;28
+1;0;"Rosenshine, Mr. George (""Mr George Thorne"")";1;46;79
+1;0;Ross, Mr. John Hugo;1;36;40
+1;1;Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards);2;33;87
+1;0;Rothschild, Mr. Martin;1;55;59
+1;1;Rothschild, Mrs. Martin (Elizabeth L. Barrett);2;54;59
+1;0;Rowe, Mr. Alfred G;1;33;27
+1;1;Ryerson, Master. John Borie;1;13;262
+1;1;Ryerson, Miss. Emily Borie;2;18;262
+1;1;"Ryerson, Miss. Susan Parker ""Suzette""";2;21;262
+1;0;Ryerson, Mr. Arthur Larned;1;61;262
+1;1;Ryerson, Mrs. Arthur Larned (Emily Maria Borie);2;48;262
+1;1;Saalfeld, Mr. Adolphe;1;;31
+1;1;Sagesser, Mlle. Emma;2;24;69
+1;1;Salomon, Mr. Abraham L;1;;26
+1;1;Schabert, Mrs. Paul (Emma Mock);2;35;58
+1;1;Serepeca, Miss. Augusta;2;30;31
+1;1;Seward, Mr. Frederic Kimber;1;34;27
+1;1;Shutes, Miss. Elizabeth W;2;40;153
+1;1;Silverthorne, Mr. Spencer Victor;1;35;26
+1;0;Silvey, Mr. William Baird;1;50;56
+1;1;Silvey, Mrs. William Baird (Alice Munger);2;39;56
+1;1;Simonius-Blumer, Col. Oberst Alfons;1;56;36
+1;1;Sloper, Mr. William Thompson;1;28;36
+1;0;Smart, Mr. John Montgomery;1;56;27
+1;0;Smith, Mr. James Clinch;1;56;31
+1;0;Smith, Mr. Lucien Philip;1;24;60
+1;0;Smith, Mr. Richard William;1;;26
+1;1;Smith, Mrs. Lucien Philip (Mary Eloise Hughes);2;18;60
+1;1;Snyder, Mr. John Pillsbury;1;24;82
+1;1;Snyder, Mrs. John Pillsbury (Nelle Stevenson);2;23;82
+1;1;Spedden, Master. Robert Douglas;1;6;135
+1;1;Spedden, Mr. Frederic Oakley;1;45;135
+1;1;Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone);2;40;135
+1;0;Spencer, Mr. William Augustus;1;57;147
+1;1;Spencer, Mrs. William Augustus (Marie Eugenie);2;;147
+1;1;Stahelin-Maeglin, Dr. Max;1;32;31
+1;0;Stead, Mr. William Thomas;1;62;27
+1;1;Stengel, Mr. Charles Emil Henry;1;54;55
+1;1;Stengel, Mrs. Charles Emil Henry (Annie May Morris);2;43;55
+1;1;Stephenson, Mrs. Walter Bertram (Martha Eustis);2;52;78
+1;0;Stewart, Mr. Albert A;1;;28
+1;1;Stone, Mrs. George Nelson (Martha Evelyn);2;62;80
+1;0;Straus, Mr. Isidor;1;67;222
+1;0;Straus, Mrs. Isidor (Rosalie Ida Blun);2;63;222
+1;0;Sutton, Mr. Frederick;1;61;32
+1;1;Swift, Mrs. Frederick Joel (Margaret Welles Barron);2;48;26
+1;1;Taussig, Miss. Ruth;2;18;80
+1;0;Taussig, Mr. Emil;1;52;80
+1;1;Taussig, Mrs. Emil (Tillie Mandelbaum);2;39;80
+1;1;Taylor, Mr. Elmer Zebley;1;48;52
+1;1;Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright);2;;52
+1;0;Thayer, Mr. John Borland;1;49;111
+1;1;Thayer, Mr. John Borland Jr;1;17;111
+1;1;Thayer, Mrs. John Borland (Marian Longstreth Morris);2;39;111
+1;1;Thorne, Mrs. Gertrude Maybelle;2;;79
+1;1;Tucker, Mr. Gilbert Milligan Jr;1;31;29
+1;0;Uruchurtu, Don. Manuel E;1;40;28
+1;0;Van der hoef, Mr. Wyckoff;1;61;34
+1;0;Walker, Mr. William Anderson;1;47;34
+1;1;Ward, Miss. Anna;2;35;512
+1;0;Warren, Mr. Frank Manley;1;64;75
+1;1;Warren, Mrs. Frank Manley (Anna Sophia Atkinson);2;60;75
+1;0;Weir, Col. John;1;60;27
+1;0;White, Mr. Percival Wayland;1;54;77
+1;0;White, Mr. Richard Frasar;1;21;77
+1;1;White, Mrs. John Stuart (Ella Holmes);2;55;136
+1;1;Wick, Miss. Mary Natalie;2;31;165
+1;0;Wick, Mr. George Dennick;1;57;165
+1;1;Wick, Mrs. George Dennick (Mary Hitchcock);2;45;165
+1;0;Widener, Mr. George Dunton;1;50;212
+1;0;Widener, Mr. Harry Elkins;1;27;212
+1;1;Widener, Mrs. George Dunton (Eleanor Elkins);2;50;212
+1;1;Willard, Miss. Constance;2;21;27
+1;0;Williams, Mr. Charles Duane;1;51;61
+1;1;Williams, Mr. Richard Norris II;1;21;61
+1;0;Williams-Lambert, Mr. Fletcher Fellows;1;;35
+1;1;Wilson, Miss. Helen Alice;2;31;135
+1;1;Woolner, Mr. Hugh;1;;36
+1;0;Wright, Mr. George;1;62;27
+1;1;Young, Miss. Marie Grice;2;36;136
