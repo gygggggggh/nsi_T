@@ -1,0 +1,116 @@
+1. Nom, prénom et date de naissance des élèves de "2A
+SELECT nom , prenom , date_naiss from Eleve where ref_classe = "2A"
+
+2. Nom et prénom des élèves du lycée habitant "Strasbourg"
+SELECT nom , prenom from Eleve where ville = "Strasbourg"
+
+3. Nom et prénom des élèves du lycée nés avant le 1er janvier 2002
+SELECT nom , prenom from Eleve where date_naiss < "2002-01-01"
+
+4. Nom et prénom des filles de la classe de "TGA
+SELECT nom , prenom ,  from Eleve where sexe = 2 and ref_classe = "TGA"
+
+5. Nom, prénom et date de naissance des garçons de "1GA" nés avant le 1/1/2004
+SELECT nom , prenom , date_naiss from Eleve where sexe = 1 and date_naiss < "2004-01-01" and ref_classe = "TGA"
+
+6. Nom, prénom et classe des élèves dont le prénom commence par un "R"
+SELECT nom from Eleve where nom like "R%"
+
+7. Intitule des groupes du niveau seconde
+SELECT DISTINCT intitule from groupe where niveau ="seconde"
+
+7.5 fix bug sti2d
+UPDATE Classes SET filiere  = "technologique"
+WHERE ref like "%STI%"
+
+fix bug Inititule : ALTER TABLE classes RENAME COLUMN inititule TO intitule
+
+8. Intitulé des classes de filière technologique
+SELECT inititule from classes where filiere ="technologique"
+
+9. Le nombre d’élèves du lycée
+SELECT count(*) as total_eleve from Eleve 499
+
+10. le nombre d’élèves de la classe "2C" 35
+
+11. nom,prenom et age des élèves de la classe de "1STIB". On pourra utiliser la fonction
+SELECT nom,prenom,2022-substr(date_naiss,1,4) from Eleve where ref_classe = "1STIB"
+
+12. Afficher l’age mini, l’age moyen et l’age maxi des élèves du lycée
+SELECT min(2022-substr(date_naiss,1,4))as age_min,max(2022-substr(date_naiss,1,4))as age_max,avg(2022-substr(date_naiss,1,4))as age_avg from Eleve ;
+
+ex 2
+
+1. Nom et prénom des élèves du groupe "NSI1GG"
+SELECT nom , prenom
+FROM Eleve
+JOIN Est_membre ON Eleve . identifiant = Est_membre . ref_id_eleve
+JOIN Groupe ON Groupe . reference = Est_membre . ref_groupe
+WHERE Groupe . reference = "NSI1GG";
+
+2. Intitulé des groupes dont est membre l’élève d’identifiant 23
+
+SELECT intitule
+FROM Eleve
+JOIN Est_membre ON Eleve . identifiant = Est_membre . ref_id_eleve
+JOIN Groupe ON Groupe . reference = Est_membre . ref_groupe
+WHERE identifiant ="23"
+
+3. Ensemble des groupes auxquels est membre au moins un élèves de ’TGA’, on affichera la référence du
+groupe
+
+SELECT ref_groupe
+FROM Eleve
+JOIN Est_membre ON Eleve . identifiant = Est_membre . ref_id_eleve
+JOIN Groupe ON Groupe . reference = Est_membre . ref_groupe
+WHERE ref_classe ="TGA"
+
+4. Nom, prénom classes des élèves qui ont Mme BIGRE Simone comme professeur
+
+SELECT nom,prenom,ref_classe
+FROM Eleve
+JOIN Est_membre ON Eleve . identifiant = Est_membre . ref_id_eleve
+JOIN Groupe ON Groupe . reference = Est_membre . ref_groupe
+WHERE professeur like "%BIGRE%"
+
+5. Nom des professeurs de l’élève VICART THIERRY
+
+SELECT professeur
+FROM Eleve
+JOIN Est_membre ON Eleve . identifiant = Est_membre . ref_id_eleve
+JOIN Groupe ON Groupe . reference = Est_membre . ref_groupe
+WHERE prenom ="THIERRY" and nom = "VICART"
+
+6. Nom des professeurs intervenant dans la classe de 1GC
+
+SELECT professeur
+FROM Eleve
+JOIN Est_membre ON Eleve . identifiant = Est_membre . ref_id_eleve
+JOIN Groupe ON Groupe . reference = Est_membre . ref_groupe
+WHERE ref_classe = "1GC"
+
+7. Ensemble des classes où intervient le professeur BIGRE Simone
+
+SELECT ref_classe
+FROM Eleve
+JOIN Est_membre ON Eleve . identifiant = Est_membre . ref_id_eleve
+JOIN Groupe ON Groupe . reference = Est_membre . ref_groupe
+WHERE professeur like "%BIGRE%"
+
+ex 3
+
+1. Nom et prénom de l’élève le plus jeune du lycée
+
+SELECT nom , prenom FROM Eleve WHERE date_naiss = ( SELECT min( date_naiss ) From Eleve)
+
+2. Nom, prénom, classe des élèves qui sont au moins une fois dans le même groupe que ZERDOUM
+Charles
+SELECT nom , prenom
+FROM Eleve
+join Est_membre ON Est_membre.ref_id_eleve = Eleve.identifiant
+where Est_membre.ref_groupe = (SELECT ref_groupe FROM Est_membre JOIN Eleve ON Eleve.identifiant = Est_membre.ref_id_eleve where Eleve.nom = "ZERDOUM" AND Eleve.prenom = "CHARLES")
+
+3. La référence de la classe où la moyenne d’âge des élèves est la plus élevée.
+SELECT DISTINCT ref_classe
+FROM Eleve
+WHERE  date_naiss = (SELECT min(date_naiss)FROM ELEVE)
