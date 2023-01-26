@@ -203,8 +203,9 @@ for y in range(largeur):
 
 im_flou.save("python/PIL/index_flou.jpg")
 
+#rotation d'une image par la methode diviser pour mieux regner
 
-
+    
 
 
 
