@@ -1,5 +1,5 @@
 from random import randint
-import turtle
+
 
 
 def max2(a,b):
@@ -352,12 +352,12 @@ def nb_bits(n):
     if n <= 1:
        return n
     else:
-        return 
+        return  nb_bits(n//2) + 1
 '''Exercice 4
 
 revoir le nombre de bits valant 1 dans l'ecriture binaire de n
 
-​'''
+'''
    
 def max_tab(tab):
     max = 0
@@ -378,3 +378,21 @@ def min_tab(tab):
     
    
    
+def bin_to_dec(n):
+    if n == 0:
+        return 0
+    else:
+        return n % 10 + 2 * bin_to_dec(n // 10)
+
+# print(bin_to_dec(0x00000000))
+# print(bin_to_dec(0x00000001))
+# print(bin_to_dec(0x00000011))
+# print(bin_to_dec(0x00000111))
+# print(bin_to_dec(0x00001111))
+# print(bin_to_dec(0x00011111))
+# print(bin_to_dec(0x00111111))
+# print(bin_to_dec(0x01111111))
+# print(bin_to_dec(0x11111111))
+# 255 = 11111111
+# 254 = 11111110
+# 11110000 = 240

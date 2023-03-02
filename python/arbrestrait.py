@@ -37,14 +37,55 @@ class Node:
             return 0
         return self.parent.hauteur(self) + 1
 
-    def cheminement(self):
-        pass
-    def cheminementInterne(self):
-        pass
-    def cheminementExterne(self):
-        pass
-
-
+    def insere(self,e):
+        if self.est_vide():
+            self.cle = e
+        elif e < self.cle:
+            if self.left is None:
+                self.left = Node(e)
+                self.left.parent = self
+            else:
+                self.left.insere(e)
+        else:
+            if self.right is None:
+                self.right = Node(e)
+                self.right.parent = self
+            else:
+                self.right.insere(e)
+    def insere_tout(self,vals):
+        for v in vals:
+            self.insere(v)
+    def recherche(self,e):
+        if self.est_vide():
+            return False
+        if e == self.cle:
+            return True
+        if e < self.cle:
+            if self.left is None:
+                return False
+            return self.left.recherche(e)
+        else:
+            if self.right is None:
+                return False
+            return self.right.recherche(e)
+    def insere_meme_si_identique(self,e):
+        if self.est_vide():
+            self.cle = e
+        elif e <= self.cle:
+            if self.left is None:
+                self.left = Node(e)
+                self.left.parent = self
+            else:
+                self.left.insere_meme_si_identique(e)
+        else:
+            if self.right is None:
+                self.right = Node(e)
+                self.right.parent = self
+            else:
+                self.right.insere_meme_si_identique(e)
+    def insere_meme_si_identique_tout(self,vals):
+        for v in vals:
+            self.insere_meme_si_identique(v)
 
 def taille_arbre(arbre):
     taille_sag = taille_sad = 0
@@ -55,11 +96,20 @@ def taille_arbre(arbre):
     if arbre.right:
         taille_sad = taille_arbre(arbre.right)
     return 1 + taille_sad + taille_sag
-
+'''
 A = Node(17,Node(5),Node(22,Node(19),Node(28)))
 B = Node(63,Node(45),Node(75,Node(68)))
 C = Node(35,A,B)
-print(C.montrer())
+#print(C.montrer())
+'''
+arbre = Node(18)
+arbre.insere_tout([15,13,12,16,23,32,19,21])
+#print(arbre)
+#print(arbre.recherche(14))
+
+arbre2 = Node(18)
+arbre2.insere_meme_si_identique_tout([15,13,12,16,23,32,19,21,21])
+print(arbre2)
 
 #print(A.hauteur())
 
@@ -89,5 +139,28 @@ def nb_feuilles_arbre(A):
         nb_feuilles_sad = nb_feuilles_arbre(A.right)
     return nb_feuilles_sag + nb_feuilles_sad
 
-print(nb_feuilles_arbre(C))
+def parcours_infixe(n):
+    if n is None:
+        return
+    parcours_infixe(n.left)
+    print(n.cle)
+    parcours_infixe(n.right)
 
+def parcours_prefixe(n):
+    if n is None:
+        return
+    print(n.cle)
+    parcours_prefixe(n.left)
+    parcours_prefixe(n.right)
+
+def parcours_suffixe(n):
+    if n is None:
+        return
+    parcours_suffixe(n.left)
+    parcours_suffixe(n.right)
+    print(n.cle)
+
+print("Parcours infixe")
+parcours_infixe(arbre2)
+print("Parcours prefixe")
+parcours_prefixe(arbre2)
